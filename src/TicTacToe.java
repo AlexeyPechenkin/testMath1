@@ -36,7 +36,7 @@ public class TicTacToe {
             result = nowPlayer;
         if (result.equals(nowPlayer)) {
             gameWasEnded = true;
-            return result;
+            return result;//возвращение результата
         }
         //проверка на продолжение игры
         for (int i = 0; i < 3; i++) {
